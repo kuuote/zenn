@@ -3,7 +3,7 @@ title: "Vimのpackages機能を使う上での注意点"
 emoji: "📦"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim"]
-published: false
+published: true
 ---
 
 # はじめに
