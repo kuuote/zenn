@@ -1,5 +1,5 @@
 ---
-title: "新しい日本語入力プラグインを作った"
+title: "新しいVim用日本語入力プラグインを作った"
 emoji: "🇯🇵"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim", "neovim", "denops", "ime", "skk"]
