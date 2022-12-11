@@ -3,6 +3,7 @@ title: "Vimで素早く作業を再開する"
 emoji: "⤴"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim"]
+publication_name: "vim-jp"
 published: true
 ---
 
