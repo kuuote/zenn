@@ -3,6 +3,7 @@ title: "Vim Input Method Editor"
 emoji: "🇯🇵"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim", "ime", "skk"]
+publication_name: "vim_jp"
 published: true
 ---
 
