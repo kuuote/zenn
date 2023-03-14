@@ -7,6 +7,7 @@ publication_name: "vim_jp"
 published: true
 ---
 
+この記事は[Vim駅伝](https://vim-jp.org/ekiden/)の7本目の記事です。
 
 VimをIME代わりにするVIMEというソフトウェアがvim-jpで紹介された際に試しましたが上手く動かなかったので、カッとなって作ったスクリプトを紹介します。
 
