@@ -36,7 +36,7 @@ function s:expandpath() abort
   endif
 endfunction
 
-ちょっと読みづらかったcnoremap <expr> <C-p> <SID>expandpath()
+cnoremap <expr> <C-p> <SID>expandpath()
 inoremap <expr> <C-p> <SID>expandpath()
 ```
 
