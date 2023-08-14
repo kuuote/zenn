@@ -4,7 +4,7 @@ emoji: "⌨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim"]
 publication_name: "vim_jp"
-published: false
+published: true
 ---
 
 この記事は[Vim駅伝](https://vim-jp.org/ekiden/)の2023年8月14日の記事です。
