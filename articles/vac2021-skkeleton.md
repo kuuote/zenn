@@ -72,19 +72,18 @@ SKK ではこの2つのパターン(それぞれ送りなし変換、送りあ�
 
 入力した単語と前方一致する変換候補を全て表示して補完機能で直接変換できます。eskk.vim の補完機能の移植になりますが、ddc.vim も denops.vim を使っており双方とも高速なため軽快に動作します。[^3]
 あくまで例になりますが、次のような設定を書けば最低限の動作はすると思います。
+ソース側で計算を行う特殊な仕様のため、matcher等を空にした上でisVolatileというソースの再計算を毎回行うオプションを指定しています。
 
 ```vim
 call ddc#custom#patch_global('sources', ['skkeleton'])
 call ddc#custom#patch_global('sourceOptions', {
-    \   '_': {
-    \     'matchers': ['matcher_head'],
-    \     'sorters': ['sorter_rank']
-    \   },
     \   'skkeleton': {
     \     'mark': 'skkeleton',
-    \     'matchers': ['skkeleton'],
+    \     'matchers': [],
     \     'sorters': [],
-    \     'minAutoCompleteLength': 2,
+    \     'converters': [],
+    \     'isVolatile': v:true,
+    \     'minAutoCompleteLength': 1,
     \   },
     \ })
 call ddc#enable()
