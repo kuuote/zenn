@@ -1,2 +1,0 @@
-tasks:
-  preview: deno run -A npm:zenn-cli@0.1.133
