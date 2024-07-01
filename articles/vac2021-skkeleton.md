@@ -39,7 +39,7 @@ denops.vim は [Deno](https://deno.land) に依存しているので環境に入
 変換に別途辞書ファイルも必要になるので [SKK Openlab](https://skk-dev.github.io/dict/) より L と付いている辞書をダウンロード、展開し配置しておいてください。(設定は私が使っている関係上 Arch Linuxのパッケージのパスにデフォルトで向けてあります。そのため一部の Linux ディストリビューションでは OS のパッケージマネージャで辞書をインストールするだけで使えます)
 
 ```vim
-call skkeleton#config({ 'globalJisyo': '~/.skk/SKK-JISYO.L' })
+call skkeleton#config({ 'globalDictionaries': [['~/.skk/SKK-JISYO.L', 'euc-jp']] })
 ```
 
 また、eskk.vim と違ってグローバルのマッピングを提供していないため、マッピングをする必要があります。
@@ -50,7 +50,7 @@ imap <C-j> <Plug>(skkeleton-enable)
 cmap <C-j> <Plug>(skkeleton-enable)
 ```
 
-この状態で `<C-j>` を入力すると起動します。(statusline が出ている場合、右下に `<skkeleton>` の表示が出ていると思います)
+この状態で `<C-j>` を入力すると起動します。
 
 起動した後適当にキー入力をすると、かなで入力されると思います。この状態で何も入力されていない時に `Nihongo` と打つと `▽にほんご` とバッファに入力されます。
 
@@ -89,7 +89,7 @@ call ddc#custom#patch_global('sourceOptions', {
 call ddc#enable()
 ```
 
-また、Vim の補完機能の制約により skkeleton ソースを使用している場合どうしても補完ウィンドウがちらつくため気になる方は [pum.vim](https://github.com/Shougo/pum.vim)([作者による紹介記事](https://zenn.dev/shougo/articles/ddc-vim-pum-vim))の導入をおすすめします。(現状私の怠慢のせいで pum.vim を使用している場合 `<Tab>` での補完ハンドリングを除く skkeleton が上書きするマッピングと被っている場合機能しなくなります、すみません)
+また、Vim の補完機能の制約により skkeleton ソースを使用している場合どうしても補完ウィンドウがちらつくため気になる方は [pum.vim](https://github.com/Shougo/pum.vim)([作者による紹介記事](https://zenn.dev/shougo/articles/ddc-vim-pum-vim))の導入をおすすめします。
 
 # 作った経緯
 
