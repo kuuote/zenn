@@ -3,6 +3,7 @@ title: ":%!xxx-fmtをいい感じにスクリプトでやる"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim"]
+publication_name: "vim_jp"
 published: true
 ---
 
