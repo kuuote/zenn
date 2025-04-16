@@ -8,8 +8,7 @@ published: true
 ---
 
 この記事は[Vim駅伝](https://vim-jp.org/ekiden/)の2025-04-16の記事です。
-前回の記事は[kawarimidoll](https://zenn.dev/kawarimidoll)さんの[Neovimをはじめよう feat. mini.nvim
-Neovimをはじめよう feat. mini.nvim](https://zenn.dev/vim_jp/articles/36213839dda0f2)でした。なんやかんやでmini.nvimは触らずに通ってきたので私もNeovimをはじめたいと思います。
+前回の記事は[kawarimidoll](https://zenn.dev/kawarimidoll)さんの[Neovimをはじめよう feat. mini.nvim](https://zenn.dev/kawarimidoll/books/6064bf6f193b51)でした。なんやかんやでmini.nvimは触らずに通ってきたので私もNeovimをはじめたいと思います。
 次回の記事はPicricAcidさんの`popup_menuを作ってみた`の予定です。メニューUIっぽい物は作ったことあるけど、案外考慮することがたくさんあるので大変ですね。
 
 [Neovimのファジーファインダーtelescope.nvimでよく使っているpicker集](https://blog.atusy.net/2025/03/25/nvim-telescope-pickers/)という記事(と作者の発言「みんなも任意のFFの推しソースの紹介書いてくれよな！」)を読んだり、先日[vim-jp Slack](https://vim-jp.org/docs/chat.html)の`#tech-shougoware`で「他の人の使い方参考にしたいよね、新たなアイディアが生まれるかもしれない」という話を聞いたりして、確かに人々のワークフロー見てみたいなあと思ったので、言いだしっぺの私から書いてみることにしました。
